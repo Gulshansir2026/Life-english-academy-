@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Life English Academy</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f4f8ff;color:#172033}
+header{background:#0b5ed7;color:white;padding:45px 20px;text-align:center}
+h1{font-size:34px;margin:0 0 10px}
+.container{max-width:900px;margin:auto;padding:25px}
+.card{background:white;margin:18px 0;padding:22px;border-radius:14px;box-shadow:0 4px 15px #00000018}
+h2{color:#0b5ed7}
+.btn{display:inline-block;background:#0b5ed7;color:white;padding:14px 22px;border-radius:8px;text-decoration:none;font-weight:bold}
+footer{background:#172033;color:white;text-align:center;padding:25px;margin-top:30px}
+</style>
+</head>
+<body>
+<header>
+<h1>Life English Academy</h1>
+<p>Speak English with Confidence</p>
+<a class="btn" href="tel:9792134042">Call Now</a>
+</header>
+
+<div class="container">
+<div class="card">
+<h2>Welcome to Life English Academy</h2>
+<p>अंग्रेज़ी बोलना सीखें और अपने भविष्य को बेहतर बनाएं। हमारे नए बैच में आज ही जुड़ें।</p>
+</div>
+
+<div class="card">
+<h2>Our Courses</h2>
+<p>✓ Spoken English</p>
+<p>✓ American & British English</p>
+<p>✓ Public Speaking</p>
+<p>✓ Personality Development</p>
+<p>✓ Job Interview Skills</p>
+<p>✓ Business Development</p>
+</div>
+
+<div class="card">
+<h2>Join Us</h2>
+<p>स्थान: Phoolpur Road, Rajju Katra, Ambari, Azamgarh</p>
+<p>Contact: 9792134042</p>
+<a class="btn" href="tel:9792134042">Contact Life English Academy</a>
+</div>
+</div>
+
+<footer>
+<p><b>Life English Academy</b></p>
+<p>Learn • Speak • Grow</p>
+</footer>
+</body>
+</html>
