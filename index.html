@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Life English Academy</title>
+<style>
+:root{--blue:#0c2b5a;--blue2:#173f7a;--red:#e63b3b;--gold:#ffc52b;--light:#f5f7fb}
+*{box-sizing:border-box} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#172033;background:#fff}
+a{text-decoration:none;color:inherit}
+.top{background:var(--blue);color:#fff;padding:8px 5%;font-size:13px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+nav{display:flex;align-items:center;justify-content:space-between;padding:14px 5%;position:sticky;top:0;background:#fff;z-index:5;box-shadow:0 2px 12px #0001}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--blue)}
+.badge{width:52px;height:52px;border:3px solid var(--blue);border-radius:12px;display:grid;place-items:center;font-size:12px}
+.logo span{color:var(--red)} .links{display:flex;gap:22px;font-size:13px;font-weight:700;align-items:center}
+.enroll{background:var(--blue);color:#fff;padding:12px 20px;border-radius:6px}
+.hero{min-height:500px;padding:70px 8%;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:30px;background:linear-gradient(105deg,#f7f9fd 0%,#eef2f8 55%,#dfe9f5 100%)}
+.kicker{color:var(--blue2);font-weight:800;letter-spacing:2px}.hero h1{font-size:clamp(42px,6vw,76px);line-height:.98;margin:12px 0;color:var(--blue)}
+.hero h1 span{color:var(--red)}.hero p{font-size:18px;line-height:1.6;max-width:600px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{padding:14px 22px;border-radius:7px;font-weight:800;display:inline-block}.primary{background:var(--blue);color:#fff}.secondary{background:#fff;border:2px solid var(--blue);color:var(--blue)}
+.hero-card{background:#fff;border-radius:24px;padding:24px;box-shadow:0 20px 50px #0c2b5a25;position:relative;overflow:hidden}
+.hero-card:before{content:"SPEAK";position:absolute;right:-15px;top:-15px;font-size:90px;font-weight:900;color:#f0f3f8;z-index:0}
+.student{height:340px;border-radius:18px;background:linear-gradient(145deg,#173f7a,#69a1d8);position:relative;overflow:hidden}
+.student:after{content:"LIFE ENGLISH ACADEMY\A SPEAK • LEARN • SUCCEED";white-space:pre;position:absolute;left:28px;bottom:28px;color:#fff;font-weight:900;font-size:28px;line-height:1.2}
+section{padding:70px 8%}.title{text-align:center;margin-bottom:35px}.title small{color:var(--red);font-weight:800;letter-spacing:2px}.title h2{font-size:34px;margin:8px 0;color:var(--blue)}
+.cards{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}.card{background:#fff;border:1px solid #e7ebf2;border-radius:12px;padding:22px;box-shadow:0 7px 20px #0c2b5a10}
+.icon{font-size:32px}.card h3{font-size:16px;color:var(--blue)}.card p{font-size:13px;color:#667085;line-height:1.5}
+.about{background:var(--light);display:grid;grid-template-columns:300px 1fr;gap:35px;align-items:center}.photo{height:330px;border-radius:18px;background:linear-gradient(145deg,#193e75,#e7d9d1);position:relative}.photo:after{content:"GULSHAN SIR";position:absolute;bottom:20px;left:20px;color:#fff;font-size:24px;font-weight:900}
+.fee{background:var(--blue);color:#fff;border-radius:22px;padding:35px;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:20px}.price{font-size:64px;color:var(--gold);font-weight:900}.gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.g{height:170px;border-radius:14px;background:linear-gradient(145deg,#cad7e8,#577da8);display:grid;place-items:center;color:#fff;font-weight:800}
+.contact{background:#f4f7fb;display:grid;grid-template-columns:1fr 1fr;gap:25px}.contactbox{background:#fff;padding:28px;border-radius:18px}.qr{width:180px;height:180px;margin:auto;background:repeating-linear-gradient(45deg,#111 0 7px,#fff 7px 14px);border:10px solid #fff;box-shadow:0 0 0 1px #ddd}
+footer{background:#071a38;color:#fff;padding:40px 8%;display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap}
+@media(max-width:900px){.links{display:none}.hero{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}.about,.contact,.fee{grid-template-columns:1fr}.gallery{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){section,.hero{padding:45px 5%}.cards{grid-template-columns:1fr}.hero h1{font-size:46px}.top{font-size:11px}.price{font-size:52px}}
+</style>
+</head>
+<body>
+<div class="top"><div>Welcome to Life English Academy • Speak English, Change Your Life!</div><div>📞 9792134042 &nbsp; | &nbsp; Ambari, Azamgarh</div></div>
+
+<nav>
+  <div class="logo"><div class="badge">LEA</div><div>LIFE<br><span>ENGLISH ACADEMY</span></div></div>
+  <div class="links"><a href="#home">HOME</a><a href="#about">ABOUT US</a><a href="#courses">COURSES</a><a href="#gallery">GALLERY</a><a href="#admission">ADMISSION</a><a href="#contact">CONTACT</a><a class="enroll" href="#admission">ENROLL NOW</a></div>
+</nav>
+
+<section class="hero" id="home">
+  <div>
+    <div class="kicker">WELCOME TO LIFE ENGLISH ACADEMY</div>
+    <h1>SPEAK ENGLISH<br><span>WITH CONFIDENCE</span></h1>
+    <p>Improve your English communication, public speaking and professional confidence with practical learning and supportive guidance.</p>
+    <div class="actions"><a class="btn primary" href="#admission">JOIN NEW BATCH</a><a class="btn secondary" href="tel:9792134042">CALL NOW</a></div>
+  </div>
+  <div class="hero-card"><div class="student"></div></div>
+</section>
+
+<section id="courses">
+<div class="title"><small>OUR COURSES</small><h2>COURSES WE OFFER</h2></div>
+<div class="cards">
+<div class="card"><div class="icon">🇺🇸🇬🇧</div><h3>American & British English</h3><p>Learn practical English for everyday communication.</p></div>
+<div class="card"><div class="icon">🎤</div><h3>Public Speaking</h3><p>Build confidence and express yourself clearly.</p></div>
+<div class="card"><div class="icon">🌟</div><h3>Personality Development</h3><p>Develop confidence, communication and presentation skills.</p></div>
+<div class="card"><div class="icon">💼</div><h3>Job Interview Skills</h3><p>Practice interview communication and professional skills.</p></div>
+<div class="card"><div class="icon">📈</div><h3>Business Development</h3><p>Improve professional communication for business growth.</p></div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="photo"></div>
+<div>
+<div class="kicker">ABOUT US</div>
+<h2>Welcome to Life English Academy</h2>
+<p>Life English Academy is focused on helping students improve English speaking and communication skills through practical learning.</p>
+<p><b>Director & Manager: Gulshan Sir</b></p>
+<a class="btn primary" href="#contact">CONTACT US</a>
+</div>
+</section>
+
+<section id="admission">
+<div class="fee">
+<div><div class="kicker" style="color:#9ec4ff">COURSE FEE</div><div class="price">₹499</div><h2>Learn • Practice • Succeed</h2><p>Start your English-speaking journey with Life English Academy.</p></div>
+<div><h2>Admission Open</h2><p>New batch admissions are available. Contact us for class timing and complete details.</p><a class="btn secondary" style="color:#fff;border-color:#fff" href="tel:9792134042">CALL FOR ADMISSION</a></div>
+</div>
+</section>
+
+<section id="gallery">
+<div class="title"><small>GALLERY</small><h2>Moments at Life English Academy</h2></div>
+<div class="gallery"><div class="g">CLASSROOM</div><div class="g">SPEAKING PRACTICE</div><div class="g">STUDENT ACTIVITIES</div><div class="g">PUBLIC SPEAKING</div></div>
+</section>
+
+<section class="contact" id="contact">
+<div class="contactbox"><div class="kicker">CONTACT US</div><h2>Start Speaking English Today</h2><p>📞 <b>9792134042</b></p><p>📍 Rajju Katra, Phoolpur Road, Ambari, Azamgarh</p><p>🏫 Life English Academy</p><a class="btn primary" href="https://wa.me/919792134042">WHATSAPP US</a></div>
+<div class="contactbox" style="text-align:center"><h2>Scan for Contact</h2><div class="qr"></div><p>This is a design placeholder for your final QR code.</p></div>
+</section>
+
+<footer><div><div class="logo" style="color:#fff"><div class="badge" style="border-color:#fff">LEA</div><div>LIFE<br><span>ENGLISH ACADEMY</span></div></div><p>Speak English. Build Confidence. Succeed.</p></div><div><b>QUICK LINKS</b><p>Home • About Us • Courses • Gallery • Contact</p></div><div><b>CONTACT</b><p>9792134042<br>Ambari, Azamgarh</p></div></footer>
+</body>
+</html>
